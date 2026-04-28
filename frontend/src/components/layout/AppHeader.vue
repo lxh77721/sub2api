@@ -38,6 +38,22 @@
           <span class="hidden sm:inline">{{ t('nav.docs') }}</span>
         </a>
 
+        <!-- QQ Group Link -->
+        <a
+          href="https://qm.qq.com/q/CbfVwIGOX"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group relative inline-flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 px-3 py-1.5 text-sm font-semibold text-white shadow-md shadow-blue-500/30 transition-all hover:shadow-lg hover:shadow-blue-500/40 hover:scale-105"
+          title="加入 QQ 群"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M21.395 15.035a39.548 39.548 0 0 0-.803-2.264l-1.079-2.695c.001-.032.014-.562.014-.836C19.526 4.632 17.351 0 12 0S4.474 4.632 4.474 9.241c0 .274.013.804.014.836l-1.08 2.695a38.97 38.97 0 0 0-.802 2.264c-1.021 3.283-.69 4.643-.438 4.673.54.065 2.103-2.472 2.103-2.472 0 1.469.756 3.387 2.394 4.771-.612.188-1.363.479-1.845.835-.434.32-.379.646-.301.778.343.578 5.883.369 7.482.189 1.6.18 7.14.389 7.483-.189.078-.132.132-.458-.302-.778-.481-.356-1.233-.646-1.844-.835 1.637-1.384 2.393-3.302 2.393-4.771 0 0 1.563 2.537 2.103 2.472.251-.03.581-1.39-.438-4.673z"/>
+          </svg>
+          <span class="hidden sm:inline">QQ 群</span>
+          <div class="absolute -right-1 -top-1 h-2 w-2 rounded-full bg-red-500 animate-ping"></div>
+          <div class="absolute -right-1 -top-1 h-2 w-2 rounded-full bg-red-500"></div>
+        </a>
+
         <!-- Language Switcher -->
         <LocaleSwitcher />
 
